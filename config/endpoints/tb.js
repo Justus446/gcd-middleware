@@ -142,7 +142,7 @@ let tb = [
 	  name: 'MOS by commodity',
 	  id: 'all__mos_by_commodity',
 	  local_url: `${APP_BASE_URL}/api/dashboard/mos-by-commodity`,
-	  url: `${DHIS_BASE_API_URL}/analytics.json?dimension=dx:HfGVoCZAwtd;nK8sqMAeQHY;ZcngDQJKiEg;wOKbEd8Dbi3;lHPLS1G5CUc;SSARcWY2Ge1;AX1co0SXobM;UUNwkYQhYgX;gEDxkvJmRAm`,
+	  url: `${DHIS_BASE_API_URL}/analytics.json?dimension=dx:odZ2IEYYLLK;jfdSqd7NLIA;sIxKRMvOe3N;KmkrgQ4rQYr;W6k3lfLvhOv;mnlZIkbnAyN;RmPpZLFpKCa;AgsWXhnNknl;gDfyaC1i3Pk;YSqtr4bR8HK;nMyl1bo8gHi;yxXzwebCs5H;Q6DsYuQM78Q;KlJIY3DChTK;Sx9eDjtxH38;H4G1qg7DfwD;RMMja0YuBSs;OOGu4p8C96A;VpC0Vj10ONs;V9NH9Jx5fGW;ZsFwZ1e0xSB;vwMuYZxmxJQ;FGYOyf3tav3;PvSrkyUbU5p;LiRzU6kGhmE;mBKrtZygpJ3;P3EaYdF0vQH;yP89wN45wAc;hVZkygpG1AF;TBjmUZRIGPS;n1cnYsFuOau;lK3MIHqfL4Q;jQBcJ9SufRQ;Kmcmn4irtSs;kg03w5F1BaE;L7aYEvutgTS`,
 	  default_period: 'LAST_MONTH',
 	  default_org_unit: 'HfVjCurKxh2',
 	  default_org_unit_level: '',
@@ -233,18 +233,6 @@ let tb = [
 	  default_org_unit: 'hfVjCurKxh2',
 	  default_org_unit_level: '',
 	  Notes: ''
-	},
-	{
-		page: 'Stock status map',
-		level: 'County',
-		name: 'All commodities',
-		id: 'county__all_commodities_map',
-		local_url: `${APP_BASE_URL}/api/county/stockstatus/map`,
-		url: `${DHIS_BASE_API_URL}/analytics.json?dimension=dx:jfUzb86mBSP.miM6uIJ2cWx;HwvUHnslwbh.miM6uIJ2cWx;OLYLVMDHEj8.miM6uIJ2cWx;UJeKVZzAnfS.miM6uIJ2cWx;naztfZrbMtd.miM6uIJ2cWx;EtG9ozt2joA.miM6uIJ2cWx;Umi8ZsiqBHw.miM6uIJ2cWx;xZs759QOGvh.miM6uIJ2cWx;HfGVoCZAwtd;nK8sqMAeQHY;ZcngDQJKiEg;wOKbEd8Dbi3;SSARcWY2Ge1;AX1co0SXobM;UUNwkYQhYgX;gEDxkvJmRAm`,
-		default_period: 'LAST_MONTH',
-		default_org_unit: 'hfVjCurKxh2',
-		default_org_unit_level: '',
-		Notes: ''
 	},
 	{
 	  page: 'Reporting Rate',
